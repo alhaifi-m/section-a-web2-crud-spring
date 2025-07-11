@@ -1,7 +1,11 @@
-export default function Home() {
+import React from "react";
+
+const page = () => {
   return (
     <div className="flex min-h-screen flex-col justify-between p-24">
-    <div> My Page </div>
+      Contact Us
     </div>
   );
-}
+};
+
+export default page;
